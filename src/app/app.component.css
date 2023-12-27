@@ -1,0 +1,37 @@
+footer {
+  background-color: #27216e;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.menu-bar_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-bar_container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu-bar_container ul li {
+  margin-right: 20px;
+}
+
+.menu-bar_container ul li:last-child {
+  margin-right: 0;
+}
+
+.menu-bar_container ul li span {
+  color: #ccc;
+  margin: 0 5px;
+}
+
+.menu-bar_container ul li a {
+  text-decoration: none;
+  color: white;
+}
